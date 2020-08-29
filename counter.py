@@ -102,7 +102,11 @@ def localDetect(image_path):
     for (xA, yA, xB, yB) in result:
         cv2.rectangle(image, (xA, yA), (xB, yB), (0, 255, 0), 2)
         d=d+1
-    print(d)
+    if(d>10):
+        print('Crowd detected!Buzzer is buzzed!!')
+    else:
+        print('No crowd detected.')
+    print('The number of people in the crowd is ',d)
     cv2.imshow("result", image)
     cv2.waitKey(0)
     cv2.destroyAllWindows()
