@@ -20,7 +20,7 @@ Made by: Jose Garcia
 URL_EDUCATIONAL = "http://things.ubidots.com"
 URL_INDUSTRIAL = "http://industrial.api.ubidots.com"
 INDUSTRIAL_USER = True  # Set this to False if you are an educational user
-TOKEN = "BBFF-yzASDoHYx28YnowlmM5e5ImX6YrEuo"  # Put here your Ubidots TOKEN
+TOKEN = "..."  # Put here your Ubidots TOKEN
 DEVICE = "detector"  # Device where will be stored the result
 VARIABLE = "people"  # Variable where will be stored the result
 
